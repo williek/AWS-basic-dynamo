@@ -3,8 +3,6 @@
 const Debt = require("../src/class/Debt")
 const Person = require("../src/class/Person")
 const assert = require('assert');
-const { fail } = require("assert");
-
 
 describe('Debt', function() {
 
@@ -17,7 +15,7 @@ describe('Debt', function() {
 
 });
 
-describe('Person', async function() {
+describe('Person', function() {
 
     describe('#add', async function() {
         
