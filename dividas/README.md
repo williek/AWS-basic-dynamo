@@ -18,3 +18,16 @@ AWS_REGION
 PORT
 PERSON_DEBT_TABLE
 ```
+<br/><br/><br/>
+## Running the app
+
+the first needed step is to install all the dependencies
+```
+npm install
+```
+
+Now you are able to run the app:
+```
+npm start
+```
+
