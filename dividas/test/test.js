@@ -17,9 +17,9 @@ describe('Debt', function() {
 
 describe('Person', function() {
 
-    describe('#add', async function() {
-        
-        await Person.add({}).catch( err => it('should fail', () => assert.throws( () => { throw err } , Error)) );
+    describe('#add', function() {
+
+        it('should fail', () => assert.rejects(Person.add({})))
         it('should work', () => assert.ok(Person.add({ cpf:'111.111.111-11' })) )
 
     });
